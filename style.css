@@ -1,0 +1,50 @@
+:root {
+  --escuro: #1d1e20;
+  --white: #ffffff;
+}
+
+body, ul, li, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2rem;
+  background: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background: var(--escuro);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.menu {
+  background: var(--escuro);
+  display: flex;
+}
+
+.menu li {
+  background: var(--escuro);
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  /* background: tomato; */
+}
+
+/* CSS FLEXBOX */
