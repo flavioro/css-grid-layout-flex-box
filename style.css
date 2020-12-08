@@ -22,6 +22,11 @@ a {
   color: white;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .header {
   background: var(--escuro);
   display: flex;
@@ -47,4 +52,13 @@ a {
   /* background: tomato; */
 }
 
-/* CSS FLEXBOX */
+/* CSS FLEXBOX 1 */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex > div {
+  flex: 1 1 200px;
+}
